@@ -1,0 +1,55 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 50%, #b0c9e7 100%);
+
+}
+
+
+h4 {
+  font-weight: 700;
+  color: #333;
+}
+
+h6 {
+  font-weight: 500;
+  color: #555;
+}
+
+p {
+  color: #666;
+}
+
+/* Style for the navigation bar */
+nav {
+  background-color: #91a7ff; /* Soft pastel blue */
+}
+
+/* Card style for hotels */
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Button styles */
+button {
+  background-color: #91a7ff; /* Soft pastel blue */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #748ffc; /* Slightly darker shade on hover */
+}
